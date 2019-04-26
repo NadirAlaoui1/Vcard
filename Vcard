@@ -1,13 +1,14 @@
-function raf_create_vcard(){
-    return utf8_encode('BEGIN:VCARD
-        VERSION:4.0
-        N:;'.$name.';;;
-        FN:'.$name.'
-        EMAIL:'.$email.'
-        ORG:'.$name.'
-        TEL:'.$tel.'
-        TEL;type=FAX:'.$fax.'
-        URL;type=PREF:'.$www.'
-        ADR:;'.$address.';
-        END:VCARD');
-}
+<ol>
+
+<li class="vcard">
+<span class="adr">
+
+<span class="Straat"></span>
+<span class="Gemeente"></span>
+<span class="Postcode"></span>
+<span class="Stad"></span>
+
+</span>
+</li>
+
+</ol>
